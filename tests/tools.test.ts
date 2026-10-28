@@ -8,7 +8,7 @@ import { armar_paquete, generar_formulario, leer_solicitud, mapear_campos, simul
 import type { Campo, Contexto, Mapeo } from '../src/tools/types.js';
 
 let ctx: Contexto;
-const root = path.resolve(process.cwd(), 'reto-01');
+const root = path.resolve(process.cwd(), 'fixtures', 'reto-01');
 const decode = <T>(text: string): { ok: boolean; data?: T; error?: string } => JSON.parse(text);
 async function processCase(caso: string) {
   const solicitud = decode<{ campos: Campo[] }>(await leer_solicitud.execute({ caso }, ctx));

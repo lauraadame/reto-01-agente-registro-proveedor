@@ -4,7 +4,7 @@ import { z } from 'zod';
 import type { Contexto } from './types.js';
 
 export const casoSchema = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(80);
-export const fixtureRoot = (ctx: Contexto) => path.resolve(ctx.directory, process.env.FIXTURES_DIR || './reto-01');
+export const fixtureRoot = (ctx: Contexto) => path.resolve(ctx.directory, process.env.FIXTURES_DIR || './fixtures/reto-01');
 export const caseRoot = (ctx: Contexto, caso: string) => path.join(fixtureRoot(ctx), 'casos', caso);
 export const outRoot = (ctx: Contexto, caso: string) => path.join(ctx.directory, 'out', caso);
 export async function jsonFile<T>(file: string, schema: z.ZodType<T>): Promise<T> {

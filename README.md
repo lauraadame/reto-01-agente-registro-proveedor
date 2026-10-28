@@ -14,7 +14,7 @@ copy .env.example .env
 npm run dev
 ```
 
-Abre `http://localhost:3000`. Configura `GROQ_API_KEY` en `.env` para conversar mediante Groq con `openai/gpt-oss-20b` por defecto. Sin clave, frontend y health funcionan, y el chat devuelve un mensaje recuperable. `FIXTURES_DIR` tiene por defecto `./reto-01` y no se modifica.
+Abre `http://localhost:3000`. Configura `GROQ_API_KEY` en `.env` para conversar mediante Groq con `openai/gpt-oss-20b` por defecto. Sin clave, frontend y health funcionan, y el chat devuelve un mensaje recuperable. `FIXTURES_DIR` tiene por defecto `./fixtures/reto-01`; allí viven los insumos de solo lectura del agente.
 
 ## Verificación
 

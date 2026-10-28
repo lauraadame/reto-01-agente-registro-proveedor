@@ -34,7 +34,7 @@ class FakeAdapter implements LlmAdapter {
   }
 }
 let temp: string;
-const fixture = path.resolve(process.cwd(), 'reto-01');
+const fixture = path.resolve(process.cwd(), 'fixtures', 'reto-01');
 const caso = 'co-industrias-delta';
 let campos: Campo[];
 beforeEach(async () => {
