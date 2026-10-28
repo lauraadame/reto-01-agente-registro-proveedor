@@ -36,4 +36,6 @@ npm run build
 
 ## Link de prueba
 
-Pendiente de despliegue; prueba local en `http://localhost:3000`.
+Despliegue: https://reto-01-agente-registro-proveedor.onrender.com/
+
+Prueba local: http://localhost:3000.
