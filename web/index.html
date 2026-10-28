@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172924">
+  <title>Registro de proveedores · Mesa de trabajo</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="workspace">
+    <aside class="rail" aria-label="Panel de casos">
+      <div class="identity"><span class="identity-mark" aria-hidden="true">P</span><div><strong>PERIFERIA</strong><small>OPERACIONES · 01</small></div></div>
+      <div class="rail-section"><p class="eyebrow">ESPACIO DE TRABAJO</p><h1>Registro de<br>proveedores<span>.</span></h1><p class="rail-copy">Prepara formularios y soportes. La revisión y la decisión final siguen en manos del equipo.</p></div>
+      <div class="cases"><p class="eyebrow">SOLICITUDES DISPONIBLES</p><button type="button" class="case" data-case="co-industrias-delta"><span class="case-code">CO</span><span>Industrias Delta<small>Formato Excel</small></span><span aria-hidden="true">↗</span></button><button type="button" class="case" data-case="ec-corp-andina"><span class="case-code">EC</span><span>Corporación Andina<small>Formulario PDF</small></span><span aria-hidden="true">↗</span></button><button type="button" class="case" data-case="hn-agroexport-sula"><span class="case-code">HN</span><span>Agroexport Sula<small>Formato Excel</small></span><span aria-hidden="true">↗</span></button><button type="button" class="case" data-case="pa-logistica-istmo"><span class="case-code">PA</span><span>Logística del Istmo<small>Valores para portal</small></span><span aria-hidden="true">↗</span></button></div>
+      <div class="rail-footer"><span class="status-dot" aria-hidden="true"></span><span id="connection">Comprobando conexión</span></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><p class="eyebrow">MESA ADMINISTRATIVA <span class="top-separator">/</span> ASISTENTE</p><h2>Preparación de solicitudes</h2></div><button type="button" id="new-session" class="secondary">Nueva conversación</button></header>
+      <section class="conversation" aria-label="Conversación"><div id="messages" class="messages" aria-live="polite"><div class="welcome"><span class="welcome-icon" aria-hidden="true">↗</span><p class="eyebrow">LISTO PARA EMPEZAR</p><h3>Una solicitud a la vez.<br>Todo a la vista.</h3><p>Selecciona un caso a la izquierda o escribe su identificador. Verás cada herramienta usada, los pendientes y la confirmación antes de cualquier simulación.</p><p class="example">Por ejemplo: «Procesa el caso ec-corp-andina. No envíes nada todavía.»</p></div></div></section>
+      <div id="confirmation" class="confirmation" role="status" hidden><div><strong>Confirmación pendiente</strong><p id="confirmation-text"></p></div><button type="button" id="confirm-button">Confirmar simulación</button></div>
+      <div class="composer-wrap"><form id="composer" class="composer"><label for="message" class="sr-only">Mensaje al asistente</label><textarea id="message" rows="2" maxlength="4000" placeholder="Escribe una solicitud o pregunta por un caso…" required></textarea><button id="send" type="submit" aria-label="Enviar mensaje">Enviar <span aria-hidden="true">↗</span></button></form><p class="disclaimer">Solo prepara archivos locales · No firma, no accede a portales ni envía correos</p></div>
+    </main>
+  </div>
+</body>
+</html>

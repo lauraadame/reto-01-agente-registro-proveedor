@@ -1,0 +1,3 @@
+# Registro como proveedor
+
+Los formularios se preparan a partir del maestro y el glosario; una etiqueta desconocida queda faltante. Para CO el identificador es NIT; para EC, PE y PA es RUC; para HN es RTN. Un NIT colombiano propuesto bajo otra denominación exige confirmación humana y no es un identificador local validado. Los soportes exigidos se comprueban contra el índice, existencia física y fecha de vigencia a la fecha de ejecución. Faltantes de campos no bloquean firma; soportes ausentes o vencidos sí. El borrador de correo no lleva datos bancarios. No se firma, carga ni envía: solo se permite simular el envío después de autorización explícita del turno inmediatamente anterior.
