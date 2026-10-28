@@ -1,0 +1,71 @@
+{
+  "llenos": [
+    {
+      "etiqueta": "Nombre o razón social del proveedor",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Periferia IT Group S.A.S.",
+      "fuente": "maestro.razon_social"
+    },
+    {
+      "etiqueta": "Dirección",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Calle 10 # 43A-25, Oficina 501",
+      "fuente": "maestro.direccion"
+    },
+    {
+      "etiqueta": "Teléfono",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "+57 604 555 0100",
+      "fuente": "maestro.telefono"
+    },
+    {
+      "etiqueta": "Correo electrónico",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "lgomez@periferia-ficticia.com",
+      "fuente": "maestro.contacto_comercial.email"
+    },
+    {
+      "etiqueta": "Representante legal",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Roberto Andrade Salazar",
+      "fuente": "maestro.representante_legal.nombre"
+    },
+    {
+      "etiqueta": "Banco",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Bancolombia S.A.",
+      "fuente": "maestro.banco.nombre"
+    },
+    {
+      "etiqueta": "Número de cuenta",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "03100012345",
+      "fuente": "maestro.banco.numero_cuenta"
+    },
+    {
+      "etiqueta": "SWIFT",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "COLOCOBM",
+      "fuente": "maestro.banco.swift"
+    }
+  ],
+  "faltantes": [],
+  "requiere_confirmacion": [
+    {
+      "etiqueta": "RUC",
+      "estado": "requiere_confirmacion",
+      "confianza": 0.7,
+      "valor": "900123456",
+      "fuente": "maestro.nit",
+      "nota": "identificador extranjero: se propone NIT colombiano, no RUC local"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "llenos": [
+    {
+      "etiqueta": "Razón social",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Periferia IT Group S.A.S.",
+      "fuente": "maestro.razon_social"
+    },
+    {
+      "etiqueta": "País",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "CO",
+      "fuente": "maestro.pais"
+    },
+    {
+      "etiqueta": "Dirección",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Calle 10 # 43A-25, Oficina 501",
+      "fuente": "maestro.direccion"
+    },
+    {
+      "etiqueta": "Teléfono",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "+57 604 555 0100",
+      "fuente": "maestro.telefono"
+    },
+    {
+      "etiqueta": "Correo electrónico",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "lgomez@periferia-ficticia.com",
+      "fuente": "maestro.contacto_comercial.email"
+    },
+    {
+      "etiqueta": "Representante legal",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "Roberto Andrade Salazar",
+      "fuente": "maestro.representante_legal.nombre"
+    },
+    {
+      "etiqueta": "Fecha de constitución",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": "2008-03-14",
+      "fuente": "maestro.fecha_constitucion"
+    },
+    {
+      "etiqueta": "Número de empleados",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": 480,
+      "fuente": "maestro.numero_empleados"
+    },
+    {
+      "etiqueta": "Ingresos anuales",
+      "estado": "lleno",
+      "confianza": 1,
+      "valor": 98000000000,
+      "fuente": "maestro.ingresos_ultimo_ano.valor"
+    }
+  ],
+  "faltantes": [
+    {
+      "etiqueta": "Referencias comerciales",
+      "estado": "faltante",
+      "confianza": 0
+    }
+  ],
+  "requiere_confirmacion": [
+    {
+      "etiqueta": "RTN",
+      "estado": "requiere_confirmacion",
+      "confianza": 0.7,
+      "valor": "900123456",
+      "fuente": "maestro.nit",
+      "nota": "identificador extranjero: se propone NIT colombiano, no RTN local"
+    }
+  ]
+}

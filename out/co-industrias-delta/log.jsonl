@@ -1,0 +1,4 @@
+{"ts":"2026-10-28T17:08:07.857Z","herramienta":"proveedor_leer_solicitud","ok":true,"resumen":"Operación completada"}
+{"ts":"2026-10-28T17:08:07.874Z","herramienta":"proveedor_mapear_campos","ok":true,"resumen":"Operación completada"}
+{"ts":"2026-10-28T17:08:07.966Z","herramienta":"proveedor_generar_formulario","ok":true,"resumen":"Operación completada"}
+{"ts":"2026-10-28T17:08:08.108Z","herramienta":"proveedor_armar_paquete","ok":true,"resumen":"Operación completada"}
